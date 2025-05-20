@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "node -e 'import(\"./lambda.js\").then(m => m.handler({}).then(console.log))'"
+    "test": "node -e 'import(\"./index.js\").then(m => m.handler({}).then(console.log))'"
   },
   "dependencies": {
     "axios": "^1.6.0"
