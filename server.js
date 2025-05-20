@@ -4,7 +4,6 @@ import axios from 'axios';
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Replace these with your actual Telegram bot details
 const token = '7377528114:AAHLkBhDzwzCsAm7-r-FGNY5JVObHPjgio4';
 const chatId = '757627221';
 
