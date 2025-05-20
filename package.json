@@ -1,13 +1,11 @@
 {
-  "name": "telegram-bot",
+  "name": "telegram-bot-lambda",
   "version": "1.0.0",
-  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "test": "node -e 'import(\"./lambda.js\").then(m => m.handler({}).then(console.log))'"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "express": "^4.18.2"
+    "axios": "^1.6.0"
   }
 }
